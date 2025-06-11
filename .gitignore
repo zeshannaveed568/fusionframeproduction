@@ -41,3 +41,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+
+# folders
+/src/app/about
+/src/app/contact
+/src/api/
+/src/app/portfolio
+/src/uploadmedia
+/src/components/VideoUploadForm.tsx
