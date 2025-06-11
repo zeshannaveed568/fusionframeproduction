@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Georama", sans-serif;
+  background: #070707;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: "Amsterdam", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: inherit;
+}
