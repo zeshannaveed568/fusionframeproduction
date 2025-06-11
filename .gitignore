@@ -43,8 +43,8 @@ next-env.d.ts
 
 
 # folders
-/src/app/about
-/src/app/contact
+/src/app/about/page.tsx
+/src/app/contact/page.tsx
 /src/api/
 /src/app/portfolio
 /src/uploadmedia
