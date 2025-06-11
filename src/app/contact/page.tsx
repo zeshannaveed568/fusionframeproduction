@@ -1,7 +1,7 @@
 import Image from "next/image";
 import bgImg from "../../../public/assets/contact.webp";
 import Title from "@/components/Title";
-import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/ContactForm";
 import { ContactData } from "../../../data";
 import ContactCard from "@/components/ContactCard";
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
         </div>
         {/* Contact Form */}
         <div className="absolute top-[65%] w-full flex flex-col justify-center items-center gap-y-8">
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </div>
       {/* Contact Details */}
