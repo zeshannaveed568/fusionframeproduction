@@ -1,6 +1,4 @@
-import Link from "next/link";
 import React from "react";
-import CustomButton from "./CustomButton";
 
 interface TitleProps {
   title: string;

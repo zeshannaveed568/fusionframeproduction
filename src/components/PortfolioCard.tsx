@@ -13,7 +13,7 @@ export default function PortfolioCard({
   thumbnailUrl,
   category,
   title,
-  videoUrl,
+  // videoUrl,
   showCatagory,
 }: PortfolioCardProps) {
   const [videoBanner, setVideoBanner] = useState(false);
@@ -22,11 +22,11 @@ export default function PortfolioCard({
     setVideoBanner(true);
   };
 
-  const closeVideoBanner = (event: React.MouseEvent) => {
-    event.stopPropagation();
-    setVideoBanner(false);
-    console.log("close");
-  };
+  // const closeVideoBanner = (event: React.MouseEvent) => {
+  //   event.stopPropagation();
+  //   setVideoBanner(false);
+  //   console.log("close");
+  // };
 
   return (
     <div

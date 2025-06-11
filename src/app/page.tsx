@@ -230,7 +230,7 @@ export default async function Home() {
         <HeadingTitles initialpart={"Moneyback"} finalpart={"Guarantee"} />
 
         <h3 className="flex text-center px-4 py-4 md:text-xl font-medium">
-          If you're not satisfied with the video we edited, you can request a
+          If you&apos;re not satisfied with the video we edited, you can request a
           full refund within 3 business days of receiving the video.
         </h3>
       </div>

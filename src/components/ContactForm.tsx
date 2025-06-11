@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import React, { useState, useCallback } from "react";
-import emailjs from '@emailjs/browser';
 
 interface FormInputProps {
   label: string;

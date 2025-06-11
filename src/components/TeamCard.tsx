@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
+import { Card, CardHeader, CardBody } from "@nextui-org/react";
 
 interface TeamCardProps {
   name: string;
@@ -8,7 +8,7 @@ interface TeamCardProps {
   imageAlt: string;
 }
 
-const TeamCard: React.FC<TeamCardProps> = ({ name, role, imageSrc, imageAlt }) => {
+const TeamCard: React.FC<TeamCardProps> = ({ name, role, imageSrc }) => {
   return (
     <Card className='py-4'>
       <CardBody className='overflow-visible py-2'>

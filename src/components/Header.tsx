@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between p-4 bg-gray-800 text-white">
       <h1 className="text-xl font-bold">My Website</h1>
-      <nav>
+      {/* <nav>
         <ul className="flex space-x-4">
           <li>
             <a href="/" className="hover:underline">
@@ -20,7 +20,7 @@ export default function Header() {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 }
